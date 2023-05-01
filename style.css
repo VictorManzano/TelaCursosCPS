@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
+    background-color: rgb(29, 33, 33);
+}
+
+.navlogo {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    background-color: #eee;
+    margin-bottom: 30px;
+    background-color: rgb(14, 19, 21);
+}
+
+.logo {
+    height: 200px;
+}
+
+.infos {
+    font-size: 15px;
+    color: white;
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 100vw;
+    margin-bottom: 50px;
+}
+
+.containerEtecTitle {
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}
+
+.containerTopImage {
+    width: 180px;
+    height: 150px;
+}
+
+.containerTopSpan {
+    font-size: 25px;
+}
+
+.containerTopText {
+    font-size: 25px;
+}
+
+.containerEtec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containerEtecList {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.containerEtecListItem {
+    margin-left: 15px;
+    padding: 10px 7px;
+    border-radius: 10px;
+    width: 352px;
+    transition: 5s;
+    cursor: pointer;
+    background-color: rgb(14, 19, 21);
+}
+
+.itemImg {
+    margin: -10px -7px;
+    width: 366px;
+    max-height: 177px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.itemTitle {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: 800;
+    color: #eee;
+    font-weight: bold;
+}
+
+.itemDesc {
+    margin-top: 5px;
+    font-size: 15px;
+    width: 350px;
+    max-height: 75px;
+    color: white;
+    font-weight: lighter;
+}
+
+.itemInfo {
+    margin-top: 4px;
+    font-size: 13px;
+    color: white;
+}
+
+.itemButtonBg {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.itemButton {
+    margin-top: 20px;
+    width: 270px;
+    height: 40px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(29, 33, 33);
+    cursor: pointer;
+    transition: .2s;
+}
+
+.itemButton:hover {
+    background-color: rgb(14, 19, 21);
+}
