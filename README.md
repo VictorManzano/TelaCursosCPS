@@ -1,1 +1,1 @@
-site
+https://victormanzano.github.io/TelaCursosCPS/
